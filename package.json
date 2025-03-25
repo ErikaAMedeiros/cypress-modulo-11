@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ErikaAMedeiros/cypress-modulo-11#readme",
   "dependencies": {
+    "@faker-js/faker": "^8.3.1",
     "cypress": "^13.6.0"
   }
 }
