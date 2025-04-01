@@ -21,6 +21,11 @@ describe('Funcionalidade: Cadastro', () => {
         cy.get('.woocommerce-message').should('exist')
     });
 
+    it.only('Deve completar cadastro com sucesso - usando comando customizado', () => {
+        cy.preCadastro(faker.internet.email(), 'Teste123!', faker.person.firstName(), faker.person.lastName())
+        cy.get('.woocommerce-message').should('exist')
+    });
+
     it('Deve completar o cadastro com sucesso', () => {
         var firstName = faker.person.firstName()
         var email = faker.internet.email(firstName)
@@ -44,5 +49,7 @@ describe('Funcionalidade: Cadastro', () => {
         cy.get(':nth-child(4) > .button').click()
         cy.get('.woocommerce-error').should('contain', 'Erro: Uma conta já está registrada')
     });
+
+   
     
 });
