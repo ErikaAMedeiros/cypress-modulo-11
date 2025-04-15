@@ -1,0 +1,21 @@
+[
+
+    {
+        "nomeProduto": "Augusta Pullover Jacket",
+        "tamanho": "S",
+        "cor": "Orange",
+        "quantidade": 8
+    },
+    {
+        "nomeProduto": "Aether Gym Pant",
+        "tamanho": "34",
+        "cor": "Brown",
+        "quantidade": 4
+    },
+    {
+        "nomeProduto": "Aether Gym Pant",
+        "tamanho": "36",
+        "cor": "Blue",
+        "quantidade": 2
+    }
+]
